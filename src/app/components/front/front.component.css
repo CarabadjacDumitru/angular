@@ -1,11 +1,22 @@
-
-  header {
-    grid-area: header;
-  }
-
-  footer {
-    position: fixed;
-    height: 100px;
-    bottom: 0;
-    width: 100%;
+header {
+  border:5px solid blue;
+  height: 15%;
+  top: 0;
+  grid-area: header;
+  width: 100%;
 }
+
+main {
+  border:5px solid darksalmon;
+  position:fixed;
+  height: 70%;
+  width: 100%;
+}
+
+footer {
+  border:5px solid darkgrey;
+  position: fixed;
+  height: 15%;
+  bottom: 0;
+  width: 100%;
+} 

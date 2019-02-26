@@ -1,0 +1,37 @@
+.btn-passed {
+  class: btn-primary;
+}
+
+.btn-not-passed {
+    color:red;
+}
+
+.btn-current {
+    color:cyan;
+}
+
+.btn-group {
+    width: 100%;
+    overflow: auto;
+  }
+  
+.btn-group a {
+    float: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 20%; 
+    text-align: center;
+  }
+  
+  /* Add a background color on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  /* Style the current/active link */
+  .navbar a.active {
+    background-color: #4CAF50;
+  }
+  

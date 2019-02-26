@@ -1,11 +1,17 @@
-    <header>
-            <app-header></app-header>
-    </header>
+<div>
+  <header>
+    <app-header [messageHeader]="messageFront"></app-header>
+  </header>
+</div>
 
-    <main>
-        <app-center></app-center>
-    </main>
-    
-    <footer >
-            <app-footer></app-footer>
-    </footer>
+<div>
+  <main>
+   <app-center [messageCenter]="messageFront"></app-center>
+  </main>
+</div>
+
+<div>
+  <footer>
+    <app-footer [messageFooter] = "messageFront"></app-footer>
+  </footer>
+</div>

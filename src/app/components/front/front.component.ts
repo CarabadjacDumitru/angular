@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./front.component.css']
 })
 export class FrontComponent implements OnInit {
-
-  constructor() { }
+  
+  //@Input() messageFront:string ;
+  messageFront:string = "Message from Front";
+  constructor() {
+    
+   } 
 
   ngOnInit() {
   }
+
+  
 
 }

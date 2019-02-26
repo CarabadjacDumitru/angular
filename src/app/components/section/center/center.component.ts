@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-center',
@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./center.component.css']
 })
 export class CenterComponent implements OnInit {
+  
+  @Input() messageCenter:string;
 
   constructor() { }
 
   ngOnInit() {
   }
+  
+  onShowClicked(){
+    console.log("CenterComponent - message | " + this.messageCenter)
+  } 
 
 }
